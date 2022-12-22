@@ -1,0 +1,54 @@
++ umask 022
++ cd /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/BUILD
++ mv /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/FreeOrion-0.4.10.2-Linux /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/tmpBBroot
++ RPM_EC=0
+++ jobs -p
++ exit 0
++ umask 022
++ cd /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/BUILD
++ '[' /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/FreeOrion-0.4.10.2-Linux '!=' / ']'
++ rm -rf /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/FreeOrion-0.4.10.2-Linux
+++ dirname /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/FreeOrion-0.4.10.2-Linux
++ mkdir -p /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM
++ mkdir /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/FreeOrion-0.4.10.2-Linux
++ CFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ export CFLAGS
++ CXXFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection'
++ export CXXFLAGS
++ FFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ export FFLAGS
++ FCFLAGS='-O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -m64  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -I/usr/lib64/gfortran/modules'
++ export FCFLAGS
++ LDFLAGS='-Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -specs=/usr/lib/rpm/redhat/redhat-package-notes'
++ export LDFLAGS
++ LT_SYS_LIBRARY_PATH=/usr/lib64:
++ export LT_SYS_LIBRARY_PATH
++ CC=gcc
++ export CC
++ CXX=g++
++ export CXX
++ '[' -e /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/FreeOrion-0.4.10.2-Linux ']'
++ rm -rf /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/FreeOrion-0.4.10.2-Linux
++ mv /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/tmpBBroot /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/FreeOrion-0.4.10.2-Linux
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/brp-strip /usr/bin/strip
++ /usr/lib/rpm/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/check-rpaths
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
++ /usr/lib/rpm/brp-remove-la-files
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
++ /usr/lib/rpm/redhat/brp-python-hardlink
++ umask 022
++ cd /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/BUILD
++ RPM_EC=0
+++ jobs -p
++ exit 0
++ umask 022
++ cd /home/Ember/building/src-tarball/build/_CPack_Packages/Linux/RPM/BUILD
++ RPM_EC=0
+++ jobs -p
++ exit 0
